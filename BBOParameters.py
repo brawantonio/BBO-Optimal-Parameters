@@ -25,7 +25,7 @@ def n2_eksma(z):
 
 #sellmeier_eq = {'book': n2_book, 'book_NIR': n2_book_NIR, 'eksma': n2_eksma }
 
-class ExperimentalValues_1():
+class ExperimentalValues_1:
     wavelength = np.array([0.40466, 0.43583, 0.46782, 0.47999, 0.50858, 0.54607, 0.57907, 
                            0.5893, 0.64385, 0.8189, 0.85212, 0.89435, 1.014 ])
     no = np.array([1.69267, 1.68679, 1.68198, 1.68044, 1.67722, 1.67376, 1.67131, 
@@ -33,7 +33,7 @@ class ExperimentalValues_1():
     ne = np.array([1.56796, 1.56376, 1.56024, 1.55914, 1.55691, 1.55465, 1.55298, 
                     1.55247, 1.55012, 1.54589, 1.54542, 1.54469, 1.54333])
 
-class ExperimentalValues_2():
+class ExperimentalValues_2:
     wavelength = np.array([1.064, .532, .266])
     no = np.array([1.6551, 1.66749, 1.7571])
     ne = np.array([1.5425, 1.5555, 1.6146])
